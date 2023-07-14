@@ -111,3 +111,24 @@ text-shadow: 220px;
 {
 vertical-align: 20px;
 }
+table
+{
+    border: 1px solid black;
+    width: 100%;
+    table-layout: fixed;
+
+
+}
+td,th{
+    padding: 15px;
+}
+th{
+    height: 50px;
+    text-align: left;
+    vertical-align: bottom;
+}
+#DIVTABLE
+{
+    overflow-x:auto;
+}
+
