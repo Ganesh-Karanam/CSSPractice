@@ -72,14 +72,14 @@ p:empty{
     width: 100px;
     height: 50px;
 }
-p::before
+/* p::before
 {
     content: "Hello";
 }
 p::after
 {
     content: "Ganesh";
-}
+} */
 p:first-of-type
 {
     color: darkviolet;
@@ -88,4 +88,26 @@ p:first-of-type
 p:nth-child(1)
 {
     background:skyblue;
+}
+
+#july14
+{
+font-style:italic;
+font-variant: small-caps;
+font-weight: 100;
+text-transform: lowercase;
+letter-spacing: 10px;
+line-height: 200%;
+text-align: center;
+text-align-last:inherit;
+text-decoration: none;
+text-indent: 0px;
+font-family: 'Times New Roman', Times, serif;
+text-justify: initial;
+text-overflow: initial;
+text-shadow: 220px;
+}
+#july14::first-letter
+{
+vertical-align: 20px;
 }
